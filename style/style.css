@@ -1,0 +1,298 @@
+/*Normalize -start */
+	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+	input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+/*Normalize - end */
+
+
+/*Style - start*/
+	@font-family {
+		font-family: futura, sans-serif;
+		src: url(.futura/FuturaStd-Medium.otf);
+	}
+
+	/*Color Scheme - start*/
+		/*Bottle Rocket Scheme - start*/
+			.bottle-rocket {
+				background-image: url(./img/bottle-rocket.svg);
+				background-repeat: repeat;
+				background-color: #F3BCC0;
+			}
+			.bottle-rocket .site-title {
+				color: #F24F3D;
+			}
+			.bottle-rocket .results {
+				color: #F0EBD6;
+			}
+			.bottle-rocket .generate {
+				color: #ECE387;
+				background-color: #AABD61;
+			}
+			.bottle-rocket .generate:hover {
+				color: #AABD61; 
+				background-color: #ECE387;
+			}
+		/*Bottle Rocket Scheme - end*/
+
+		/*Rushmore - start*/
+			.rushmore {
+				background-image: url(./img/rushmore.svg);
+				background-repeat: repeat;
+				background-color: #E4EDC1;
+			}
+			.rushmore .site-title {
+				color: #8798AD;
+			}
+			.rushmore .results {
+				color: #BD514F;
+			}
+			.rushmore .generate {
+				color: #E5B176; 
+				background-color: #F4E721;
+			}
+			.rushmore .generate:hover {
+				color: #F4E721;
+				background-color: #E5B176;
+			}
+		/*Rushmore - end*/
+		
+		/*The Royal Tenembaums - start*/
+			.the-royal-tenembaums {
+				background-image: url(./img/the-royal-tenenbaums.svg);
+				background-repeat: repeat;
+				background-color: #FFFFFF;
+			}
+			.the-royal-tenembaums .site-title {
+				color: #F6D3A7;
+			}
+			.the-royal-tenembaums .results {
+				color: #F5D1D9;
+			}
+			.the-royal-tenembaums .generate {
+				color: #FFF8A1;
+				background-color: #DEEEDE;
+			}
+			.the-royal-tenembaums .generate:hover {
+				color: #DEEEDE; 
+				background-color: #FFF8A1;
+			}
+		/*The Royal Tenembaums - end*/
+		
+		/*Life Aquatic with Steve Zissou - start*/
+			.life-aquatic-with-steve-zissou {
+				background-image: url(./img/life-aquatic-with-steve-zissou.svg);
+				background-repeat: repeat;
+				background-color: #B3CFDA;
+			}
+			.life-aquatic-with-steve-zissou .site-title {
+				color: #C22426;
+			}
+			.life-aquatic-with-steve-zissou .results {
+				color: #FAF111;
+			}
+			.life-aquatic-with-steve-zissou .generate {
+				color: #F7F9F6;
+				background-color: #89C9B1;
+			}
+			.life-aquatic-with-steve-zissou .generate:hover {
+				color: #89C9B1; 
+				background-color: #F7F9F6;
+			}
+		/*Life Aquatic with Steve Zissou - end*/
+
+		/*Darjeeling Limited - start*/
+			.darjeeling-limited {
+				background-image: url(./img/darjeeling-limited.svg);
+				background-repeat: repeat;
+				background-color: #D36F4B;
+			}
+			.darjeeling-limited .site-title {
+				color: #F0CE0E;
+			}
+			.darjeeling-limited .results {
+				color: #EAB139;
+			}
+			.darjeeling-limited .generate {
+				color: #AEDEF5; 
+				background-color: #A5BA73;
+			}
+			.darjeeling-limited .generate:hover {
+				color: #A5BA73;
+				background-color: #AEDEF5;
+			}
+		/*Darjeeling Limited - end*/
+
+		/*Fantastic Mr. Fox - start*/
+			.fantastic-mr-fox {
+				background-image: url(./img/fantastic-mr-fox.svg);
+				background-repeat: repeat;
+				background-color: #D95406;
+			}
+			.fantastic-mr-fox .site-title {
+				color: #F3BA16;
+			}
+			.fantastic-mr-fox .results {
+				color: #410401;
+			}
+			.fantastic-mr-fox .generate {
+				color: #FCBB83; 
+				background-color: #8C2A03;
+			}
+			.fantastic-mr-fox .generate:hover {
+				color: #8C2A03;
+				background-color: #FCBB83;
+			}
+		/*Fantastic Mr. Fox - end*/
+
+		/*Moonrise Kingdom - start*/
+			.moonrise-kingdom {
+				background-image: url(./img/moonrise-kingdom.svg);
+				background-repeat: repeat;
+				background-color: #D5EDE7;
+			}
+			.moonrise-kingdom .site-title {
+				color: #887751;
+			}
+			.moonrise-kingdom .results {
+				color: #E4B238;
+			}
+			.moonrise-kingdom .generate {
+				color: #F2E169;
+				background-color: #F1AEB3;
+			}
+			.moonrise-kingdom .generate:hover {
+				color: #F1AEB3; 
+				background-color: #F2E169;
+			}
+		/*Moonrise Kingdom - end*/
+		
+		/*The Grand Budapest Hotel - start*/
+			.the-grand-budapest-hotel {
+				background-image: url(./img/the-grand-budapest-hotel.svg);
+				background-repeat: repeat;
+				background-color: #EDB291;
+			}
+			.the-grand-budapest-hotel .site-title {
+				color: #3D2741;
+			}
+			.the-grand-budapest-hotel .results {
+				color: #593155;
+			}
+			.the-grand-budapest-hotel .generate {
+				color: #CD8B7A;
+				background-color: #422727;
+			}
+			.the-grand-budapest-hotel .generate:hover {
+				color: #422727; 
+				background-color: #CD8B7A;
+			}
+		/*The Grand Budapest Hotel - end*/
+	/*Color Scheme - end*/
+
+
+	html {
+		font-size: 50%;
+	}
+
+	body {
+		font-family: futura;
+	}
+
+	.site {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+	.site-content {
+		flex: 1;
+	}
+
+	.container {
+		margin: 0 auto;
+		max-width: 1000px;
+		padding: 0 15px;
+	}
+
+	.hero {
+		margin-top: 25px;
+	}
+
+	.site-title {
+		margin: 0;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 3.8rem;
+		line-height: 1;
+	}
+
+	.results {
+		margin: 5% auto 0 auto;
+		width: 90%;
+	}
+
+	.generated-name {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 2.8rem;
+		line-height: 1;
+	}
+
+	q::before {
+		margin-left: -1rem;;
+	}
+
+	q {
+		font-size: 2.4rem;
+		line-height: 1.25;
+	}
+
+	cite {
+		display: block;
+	    text-align: right;
+	    margin-top: 10px;
+	    font-size: 1.6rem;
+	    line-height: 1.125;
+	}
+
+	cite::before {
+		content: '- ';
+	}
+
+	.generate-button {
+		margin: 20px 0 15% 0;
+	}
+
+	.generate {
+		display: block;
+		margin: 0 auto;
+		text-transform: uppercase;
+		padding: 10px 20px;
+		font-size: 1.8rem;
+		border-radius: 4px;
+		outline: none;
+		border-style: none;
+	}
+
+	footer {
+		text-align: center;
+		font-family: sans-serif;
+		padding: 10px 0;
+		text-transform: lowercase;
+		background: white;
+		color: #333;
+	}
+
+	@media (min-width: 767px) {
+		html {
+			font-size: 62.5%;
+		}
+		.results {
+			margin-top: 50px;
+			width: 75%;
+		}
+		.generate-button {
+			margin-bottom: 10%;
+		}
+	  }
+	}
+/*Styles - end*/
