@@ -1,12 +1,12 @@
 // Arrays - start
 	// An array populated with different titles to append in the beginning of the name.
-	var prefix = ['mr', 'mrs', 'ms', 'dr', 'captain', 'scout master', 'cousin', 'secretary', 'chef', 'commander', 'deputy', 'madame', 'lieutenant'];
+	var prefix = ['mr.', 'mrs.', 'ms.', 'dr.', 'm.', 'captain', 'scout master', 'cousin', 'secretary', 'chef', 'commander', 'deputy', 'madame', 'lieutenant', 'mayor', 'major', 'interpreter', 'professor', 'assistant-scientist', 'editor'];
 
 	// An array populated with various first names from 'Bottle Rocket' to 'The Grand Budapest Hotel'
-	var firstName = ['anthony', 'dignan', 'future man', 'max', 'herman', 'rosemary', 'nelson', 'dirk', 'margaret', 'royal', 'etheline', 'chas', 'margot', 'richie', 'eli', 'raleigh', 'henry', 'pagoda', 'steve', 'ned', 'jane', 'eleanor', 'klaus', 'alistair', 'oseary', 'pele', 'vikram', 'esteban', 'francis', 'peter', 'jack', 'rita', 'patricia', 'ash', 'badger', 'kylie', 'kristofferson', 'franklin', 'rat', 'petey', 'weasel', 'linda', 'walter', 'sam', 'suzy', 'ben', 'lazy-eye', 'deluca', 'izod', 'skotak', 'roosevelt', 'nickleby', 'lionel', 'murray', 'rudy', 'edgar', 'm', 'zero', 'serge', 'dmitri', 'jopling', 'ludwig', 'henckles', 'agatha', 'clotilde', 'otto'];
+	var firstName = ['anthony', 'dignan', 'future man', 'max', 'herman', 'rosemary', 'nelson', 'dirk', 'margaret', 'royal', 'etheline', 'chas', 'margot', 'richie', 'eli', 'raleigh', 'henry', 'pagoda', 'steve', 'ned', 'jane', 'eleanor', 'klaus', 'alistair', 'oseary', 'pele', 'vikram', 'esteban', 'francis', 'peter', 'jack', 'rita', 'patricia', 'ash', 'badger', 'kylie', 'kristofferson', 'franklin', 'rat', 'petey', 'weasel', 'linda', 'walter', 'sam', 'suzy', 'ben', 'lazy-eye', 'deluca', 'izod', 'skotak', 'roosevelt', 'nickleby', 'lionel', 'murray', 'rudy', 'edgar', 'm', 'zero', 'serge', 'dmitri', 'jopling', 'ludwig', 'henckles', 'agatha', 'clotilde', 'otto', 'chief', 'atari', 'rex', 'king', 'boss', 'duke', 'tracy', 'nutmeg', 'gondo', 'jupiter', 'oracle', 'spots', 'igor', 'peppermint', 'jack', 'jed', 'ralph', 'fritz'];
 
 	// An array populated with various last names from 'Bottle Rocket' to 'The Grand Budapest Hotel'
-	var lastName = ['adams', 'fischer', 'blume', 'cross', 'guggenheim', 'calloway', 'yang', 'tenenbaum', 'cash', 'st. clair', 'sherman', 'zissou', 'plimpton', 'winslett-richardson', 'daimler', 'hennessey', 'drakoulias', 'dos santos', 'ray', 'du plantier', 'fox', 'bean', 'otter', 'boggis', 'sharp', 'ward', 'bishop', 'mcintire', 'pierce', 'gustave', 'moustafa', 'x', 'kovacs', 'ivan', 'jean', 'd', 'chuck', 'mosher', 'martin', 'robin', 'georges', 'dino'];
+	var lastName = ['adams', 'fischer', 'blume', 'cross', 'guggenheim', 'calloway', 'yang', 'tenenbaum', 'cash', 'st. clair', 'sherman', 'zissou', 'plimpton', 'winslett-richardson', 'daimler', 'hennessey', 'drakoulias', 'dos santos', 'ray', 'du plantier', 'fox', 'bean', 'otter', 'boggis', 'sharp', 'ward', 'bishop', 'mcintire', 'pierce', 'gustave', 'moustafa', 'x', 'kovacs', 'ivan', 'jean', 'd', 'chuck', 'mosher', 'martin', 'robin', 'georges', 'dino', 'kobayashi', 'domo', 'walker', 'nelson', 'watanabe', 'yoko-ono', 'hiroshi', 'whitman', 'cavalcanti'];
 
 	var quote = [
 		'<q>On the run from Johnny Law... ain\'t no trip to Cleveland.</q> <cite>Dignan (Bottle Rocket, 1996)</cite>',
@@ -51,10 +51,18 @@
 		'<q>I\’m not that strong of a swimmer, so I wear a life-preserver. I think it\’s a good policy to get in the habit, anyway.</q> <cite>Sam (Moonrise Kingdom, 2012)</cite>',
 		'<q>You see, there are still faint glimmers of civilization left in this barbaric slaughterhouse that was once known as humanity. Indeed that\'s what we provide in our own modest, humble, insignificant... oh, fuck it.</q> <cite>M. Gustave (The Grand Budapest Hotel, 2014)</cite>',
 		'<q>You\'re looking so well, darling, you really are... they\'ve done a marvelous job. I don\'t know what sort of cream they\'ve put on you down at the morgue, but... I want some.</q> <cite>M. Gustave (The Grand Budapest Hotel, 2014)</cite>',
-		'<q>If I die first, and I almost certainly will, you will be my sole heir. There\'s not much in the kitty, except a set of ivory-backed hairbrushes and my library of romantic poetry, but when the time comes, these will be yours. Along with whatever we haven\'t already spent on whores and whiskey.</q> <cite>M. Gustave (The Grand Budapest Hotel, 2014)</cite>'
+		'<q>If I die first, and I almost certainly will, you will be my sole heir. There\'s not much in the kitty, except a set of ivory-backed hairbrushes and my library of romantic poetry, but when the time comes, these will be yours. Along with whatever we haven\'t already spent on whores and whiskey.</q> <cite>M. Gustave (The Grand Budapest Hotel, 2014)</cite>',
+		'<q>I wish somebody spoke his language.</q> <cite>Duke (Isle of Dogs, 2018)</cite>',
+		'<q>To the North; a long rickety causeway over a noxious sludge marsh, leading to a radioactive landfill polluted by toxic chemical garbage. That\'s our destination. Get ready to jump.</q> <cite>Rex (Isle of Dogs, 2018)</cite>',
+		'<q>I suppose if it worked, we\'d be dead already.</q> <cite>King (Isle of Dogs, 2018)</cite>',
+		'<q>You\'ll meet a bitch named Nutmeg. Tell her Chief says, "I\'ll see you in Megasaki."</q> <cite>Chief (Isle of Dogs, 2018)</cite>',
+		'<q>I used to sleep on a lamb\'s wool beanbag next to an electric space heater. That\'s my territory, I\'m an *indoor* dog.</q> <cite>Rex (Isle of Dogs, 2018)</cite>',
+		'<q>I starred in twenty-two consecutive Doggy Chow commercials. Look at me now, I couldn\'t land an audition.</q> <cite>King (Isle of Dogs, 2018)</cite>',
+		'<q>I was the lead mascot for an undefeated high school baseball team. I lost all my spirit, I\'m depressing.</q> <cite>Boss (Isle of Dogs, 2018)</cite>',
+		'<q>I only ask for what I\'ve always had, a balanced diet, regular grooming, and a general physical once a year.</q> <cite>Duke (Isle of Dogs, 2018)</cite>'
 	]
 
-	var colorScheme = ['bottle-rocket','rushmore','the-royal-tenembaums', 'life-aquatic-with-steve-zissou', 'darjeeling-limited', 'fantastic-mr-fox', 'moonrise-kingdom', 'the-grand-budapest-hotel'];
+	var colorScheme = ['bottle-rocket','rushmore','the-royal-tenembaums', 'life-aquatic-with-steve-zissou', 'darjeeling-limited', 'fantastic-mr-fox', 'moonrise-kingdom', 'the-grand-budapest-hotel', 'isle-of-dogs'];
 // Arrays - end
 
 
@@ -65,9 +73,9 @@ var random = function(arrayName){
 	return arrayName[random];
 }
 
-$( document ).ready(function() {
+$(document).ready(function() {
 	// On Page Load, load color scheme at random
-	$( "body" ).addClass( random(colorScheme) );
+	$('body').addClass( random(colorScheme) );
 	// When user clicks on the button
 	$('.generate').click(function(){
 		// Remove the item for the firstName array
