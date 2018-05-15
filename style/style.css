@@ -83,93 +83,122 @@
 }
 
 .darjeeling-limited {
-	background-color: #D36F4B;
+	background-color: #D39B5B;
 }
-.darjeeling-limited .site-title {
-	color: #F0CE0E;
-}
-.darjeeling-limited .generated-name {
-	color: #EAB139;
+.darjeeling-limited .site-title,
+.darjeeling-limited .instructions,
+.darjeeling-limited .generated-name,
+.darjeeling-limited .generate {
+	color: #EACBB1;
 }
 .darjeeling-limited .generate {
-	color: #AEDEF5; 
-	background-color: #A5BA73;
+	background-color: #196E96;
 }
 .darjeeling-limited .generate:hover {
-	color: #A5BA73;
-	background-color: #AEDEF5;
+	color: #196E96;
+	background-color: #EACBB1;
+}
+
+.hotel-chevalier {
+	background-color: #D3DDDC;
+}
+.hotel-chevalier .site-title,
+.hotel-chevalier .instructions,
+.hotel-chevalier .generated-name,
+.hotel-chevalier .generate {
+	color: #466355;
+}
+.hotel-chevalier .generate {
+	background-color: #FBD073;
+}
+.hotel-chevalier .generate:hover {
+	color: #FBD073;
+	background-color: #466355;
 }
 
 .fantastic-mr-fox {
-	background-color: #D95406;
+	background-color: #E18531;
 }
-.fantastic-mr-fox .site-title {
-	color: #F3BA16;
-}
-.fantastic-mr-fox .generated-name {
-	color: #410401;
+.fantastic-mr-fox .site-title,
+.fantastic-mr-fox .instructions,
+.fantastic-mr-fox .generated-name,
+.fantastic-mr-fox .generate {
+	color: #E1CF40;
 }
 .fantastic-mr-fox .generate {
-	color: #FCBB83; 
-	background-color: #8C2A03;
+	background-color: #B01E2B;
 }
 .fantastic-mr-fox .generate:hover {
-	color: #8C2A03;
-	background-color: #FCBB83;
+	color: #B01E2B;
+	background-color: #E1CF40;
 }
 
 .moonrise-kingdom {
-	background-color: #D5EDE7;
+	background-color: #8BD4E1;
 }
-.moonrise-kingdom .site-title {
-	color: #887751;
-}
-.moonrise-kingdom .generated-name {
-	color: #E4B238;
+.moonrise-kingdom .site-title,
+.moonrise-kingdom .instructions,
+.moonrise-kingdom .generated-name,
+.moonrise-kingdom .generate {
+	color: #9B9453;
 }
 .moonrise-kingdom .generate {
-	color: #F2E169;
-	background-color: #F1AEB3;
+	background-color: #F8D586;
 }
 .moonrise-kingdom .generate:hover {
-	color: #F1AEB3; 
-	background-color: #F2E169;
+	color: #F8D586;
+	background-color: #9B9453;
+}
+
+.castello-cavalcanti {
+	background-color: #D6B53A;
+}
+.castello-cavalcanti .site-title,
+.castello-cavalcanti .instructions,
+.castello-cavalcanti .generated-name,
+.castello-cavalcanti .generate {
+	color: #932F20;
+}
+.castello-cavalcanti .generate {
+	background-color: #83A68E;
+}
+.castello-cavalcanti .generate:hover {
+	color: #83A68E;
+	background-color: #932F20;
 }
 
 .the-grand-budapest-hotel {
-	background-color: #EDB291;
+	background-color:  #F8666E;
 }
-.the-grand-budapest-hotel .site-title {
-	color: #3D2741;
-}
-.the-grand-budapest-hotel .generated-name {
-	color: #593155;
+.the-grand-budapest-hotel .site-title,
+.the-grand-budapest-hotel .instructions,
+.the-grand-budapest-hotel .generated-name,
+.the-grand-budapest-hotel .generate {
+	color: #591B1B;
 }
 .the-grand-budapest-hotel .generate {
-	color: #CD8B7A;
-	background-color: #422727;
+	background-color: #EFB983;
 }
 .the-grand-budapest-hotel .generate:hover {
-	color: #422727; 
-	background-color: #CD8B7A;
+	color: #EFB983;
+	background-color: #591B1B;
 }
 
 .isle-of-dogs {
-	background-color: #EDB291;
+	background-color:  #050104;
 }
-.isle-of-dogs .site-title {
-	color: #3D2741;
-}
-.isle-of-dogs .generated-name {
-	color: #593155;
+.isle-of-dogs .site-title,
+.isle-of-dogs .instructions,
+.isle-of-dogs .generated-name,
+.isle-of-dogs .generate {
+	color: #FCCF30;
 }
 .isle-of-dogs .generate {
-	color: #CD8B7A;
-	background-color: #422727;
+	background-color: #E72B31;
 }
 .isle-of-dogs .generate:hover {
-	color: #422727; 
-	background-color: #CD8B7A;
+	color: #E72B31;
+	background-color: #FCCF30;
 }
 /*Color Scheme - end*/
 
@@ -180,7 +209,6 @@ body {
 
 body {
 	font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));
-	/*font-family: futura;*/
 }
 
 main {
