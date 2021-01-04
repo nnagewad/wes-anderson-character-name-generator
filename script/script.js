@@ -4,7 +4,7 @@ let firstName = ['anthony', 'dignan', 'future man', 'max', 'herman', 'rosemary',
 
 let lastName = ['adams', 'fischer', 'blume', 'cross', 'guggenheim', 'calloway', 'yang', 'tenenbaum', 'cash', 'st. clair', 'sherman', 'zissou', 'plimpton', 'winslett-richardson', 'daimler', 'hennessey', 'drakoulias', 'dos santos', 'ray', 'du plantier', 'fox', 'bean', 'otter', 'boggis', 'sharp', 'ward', 'bishop', 'mcintire', 'pierce', 'gustave', 'moustafa', 'x', 'kovacs', 'ivan', 'jean', 'd', 'chuck', 'mosher', 'martin', 'robin', 'georges', 'dino', 'kobayashi', 'domo', 'walker', 'nelson', 'watanabe', 'yoko-ono', 'hiroshi', 'whitman', 'cavalcanti', 'rosenthaler', 'cadazio', 'berensen', 'krementz', 'wright', 'nescafier', 'howitzer jr', 'sazerac', 'clampette', 'schommers', 'jones'];
 
-let colorScheme = ['bottle-rocket','rushmore','the-royal-tenembaums', 'life-aquatic-with-steve-zissou', 'darjeeling-limited', 'hotel-chevalier','fantastic-mr-fox', 'moonrise-kingdom', 'castello-cavalcanti', 'the-grand-budapest-hotel', 'isle-of-dogs'];
+let colorScheme = ['bottle-rocket','rushmore','the-royal-tenembaums', 'life-aquatic-with-steve-zissou', 'darjeeling-limited', 'hotel-chevalier','fantastic-mr-fox', 'moonrise-kingdom', 'castello-cavalcanti', 'the-grand-budapest-hotel', 'isle-of-dogs', 'the-french-dispatch'];
 
 let random = function(arrayName){
 	let number = arrayName.length;
