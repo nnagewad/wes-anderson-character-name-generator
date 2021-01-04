@@ -252,7 +252,6 @@ main {
 .instructions {
 	text-align: center;
 	text-transform: uppercase;
-	max-width: 550px;
 	margin: 0 auto;
 	font-family: FuturaMedium, sans-serif;
 }
@@ -263,9 +262,9 @@ main {
 	line-height: 1.25;
 	text-align: center;
 	display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: FuturaBold, sans-serif;
+	align-items: center;
+	justify-content: center;
+	font-family: FuturaBold, sans-serif;
 }
 
 .generate {
