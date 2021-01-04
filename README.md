@@ -6,4 +6,4 @@
 - Updates will be made after the release of any Wes Anderson film.
 
 ## Live demo:
-- https://reverent-goldstine-a7caa8.netlify.app/
+- https://wes-anderson.netlify.app/
