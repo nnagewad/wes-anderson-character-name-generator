@@ -200,6 +200,23 @@
 	color: #E72B31;
 	background-color: #FCCF30;
 }
+
+.the-french-dispatch{
+	background-color: #80C6C8;
+}
+.the-french-dispatch .site-title,
+.the-french-dispatch .instructions,
+.the-french-dispatch .generated-name,
+.the-french-dispatch .generate {
+	color: #050706;
+}
+.the-french-dispatch .generate {
+	background-color: #EEC750;
+}
+.the-french-dispatch .generate:hover {
+	color: #EEC750;
+	background-color: #050706;
+}
 /*Color Scheme - end*/
 
 html,
